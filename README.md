@@ -12,8 +12,7 @@ L’objectif est de remplacer les approches traditionnelles basées uniquement s
 
   Comme décrit dans le rapport, un NIDS surveille en continu le trafic afin d’identifier des activités suspectes ou malveillantes  
 
-  Objectifs
-
+Objectifs:
 Ce projet poursuit plusieurs objectifs :
 	•	Comprendre le fonctionnement des systèmes de détection d’intrusion
 	•	Appliquer les techniques de Machine Learning sur des données réelles
@@ -22,15 +21,14 @@ Ce projet poursuit plusieurs objectifs :
 
  Le projet vise à développer un modèle capable d’identifier efficacement les intrusions réseau tout en renforçant les compétences en Machine Learning
 
- Dataset
-
+ Dataset:
 Le projet utilise un dataset de détection d’intrusion basé sur NSL-KDD.
 	•	125 973 lignes
 	•	43 caractéristiques réseau
 	•	1 variable cible (label)
 
-  Méthodologie
-
+  
+  Méthodologie:
 Le projet suit une démarche structurée en plusieurs étapes :
 
 1. Prétraitement des données
@@ -54,34 +52,26 @@ Cette étape est essentielle car la qualité des données influence directement 
 	•	Sélection des variables les plus pertinentes
 	•	Réduction du dataset
 
-⸻
 
 4. Entraînement des modèles
-
 Plusieurs algorithmes ont été utilisés :
 	•	Régression Logistique
 	•	KNN
 	•	SVM
-	•	Rondom Forest 
-  . Naive Bayes
-
+	•	Rondom Forest
+    •	Naive Bayes
 Les modèles ont été évalués à l’aide de métriques comme l’accuracy et la matrice de confusion 
 
-⸻
 
-5. Déploiement
-
+6. Déploiement :
 Une application Streamlit a été développée permettant :
 	•	la saisie manuelle des données
 	•	l’import d’un fichier CSV
 	•	la prédiction en temps réel
 
- L’utilisateur peut tester directement le modèle via une interface interactive  ￼
+ L’utilisateur peut tester directement le modèle via une interface interactive
 
-⸻
-
- Fonctionnement du système
-
+ Fonctionnement du système :
 Le pipeline du projet est le suivant :
 	1.	Chargement des données
 	2.	Prétraitement
@@ -91,15 +81,12 @@ Le pipeline du projet est le suivant :
 
  Cette architecture suit une progression classique : données → apprentissage → détection
 
- Remerciements
-
+ Remerciements :
 Nous tenons à exprimer notre profonde gratitude :
 	•	À notre encadrant pour son accompagnement et ses conseils
 	•	À l’Université de Djibouti pour les conditions de travail mises à disposition
 	•	Aux enseignants pour la qualité de leur formation
 	•	Aux membres de l’équipe pour leur collaboration et leur implication
-
-⸻
 
   Bibliographie :
 	•	Dataset : Kaggle — Network Intrusion Detection
